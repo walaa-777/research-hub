@@ -1,0 +1,32 @@
+# Core orchestration
+langgraph>=0.2.60
+langchain-core>=0.3.25
+langchain-anthropic>=0.3.0
+anthropic>=0.40.0
+
+# API layer
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+sse-starlette>=2.1.3
+pydantic>=2.9.0
+python-dotenv>=1.0.1
+
+# RAG (local, no external embedding API needed)
+scikit-learn>=1.5.0
+numpy>=1.26.0
+
+# Web search fallback / real search
+duckduckgo-search>=6.3.0
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+tldextract>=5.1.0
+
+# MCP
+mcp>=1.1.0
+
+# Tracing (optional)
+langsmith>=0.1.140
+
+# Tests
+pytest>=8.3.0
+pytest-asyncio>=0.24.0
